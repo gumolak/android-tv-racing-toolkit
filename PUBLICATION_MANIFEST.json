@@ -1,0 +1,103 @@
+{
+  "schema": 1,
+  "license": "MIT",
+  "scope": "Original independent modules, tests, documentation and original illustrations only; no commercial game engine/assets",
+  "files": {
+    ".github/workflows/test.yml": {
+      "bytes": 301,
+      "sha256": "f06056f125fb989574016c4007eff0bd3ba5efcdbe6b0e3a86cec644dba4052a"
+    },
+    ".gitignore": {
+      "bytes": 107,
+      "sha256": "a552ce8a35a41c7b5b1655f23ac8a1b31072b7f27895faeec5934036e73aac1b"
+    },
+    "CMakeLists.txt": {
+      "bytes": 1233,
+      "sha256": "a0b50a7b85a2825b286dc42326cae26d74d3d02b7c9ccb6aaf0fd61615efae0d"
+    },
+    "LICENSE": {
+      "bytes": 1095,
+      "sha256": "d76190ad3fc30d7903b15f312957c3a16448972e3e1d8528408f38afa99894c5"
+    },
+    "PROVENANCE.md": {
+      "bytes": 3017,
+      "sha256": "8b479492b211863697de144b1798e6d9bb1bb6cadcd0e57053e0fbcdb57c085a"
+    },
+    "README.cs.md": {
+      "bytes": 1258,
+      "sha256": "8573c6266aff1dd309774690e14a819620c4f25092f5f5865fae54b039ea3582"
+    },
+    "README.md": {
+      "bytes": 3492,
+      "sha256": "13263fe26cc6f2ecc7c3ffb6408009a326eb130504449750699e1a52063903bb"
+    },
+    "docs/INTEGRATION.md": {
+      "bytes": 3920,
+      "sha256": "d13f48270717cbb7d786077fea584b6fe459297afbc26548e6194758474bed4a"
+    },
+    "docs/TEST_RESULTS.md": {
+      "bytes": 1228,
+      "sha256": "e877061d402fb34e1c5f8e939483068fe65d83a51c4856a5bcb904c6d65b9fa9"
+    },
+    "docs/images/controller-routing.png": {
+      "bytes": 54967,
+      "sha256": "4805bacd2ff1e7ad372f2c26cef9a01d45ed036c607b901a87f2c7921bb783a6"
+    },
+    "docs/images/controller-routing.svg": {
+      "bytes": 5257,
+      "sha256": "5d07485986fba73783ef54013c442a40de5731998043d5b292086f6e445f3f40"
+    },
+    "docs/images/timing-policies.png": {
+      "bytes": 42021,
+      "sha256": "a9f9aa4f529cf3de16301fa283269372a863d146e856d14e693601db780ebe86"
+    },
+    "docs/images/timing-policies.svg": {
+      "bytes": 4277,
+      "sha256": "201761fc811d3bf97c410af48bb119ad3703e60f058dd49638ba2f4d8ac20bb6"
+    },
+    "examples/bind_two_controllers.c": {
+      "bytes": 1388,
+      "sha256": "782b05dc70a38684d5fb07a52120fe2799cb0ee3705205cbfa30ea6fb3977711"
+    },
+    "include/racing_toolkit/ControllerIdentity.h": {
+      "bytes": 426,
+      "sha256": "23e16beefa1e95d3fc9d18bdb8c3d26fea5218cebb1e4f55df45d40f4172c6a5"
+    },
+    "include/racing_toolkit/MenuConfirmMask.h": {
+      "bytes": 249,
+      "sha256": "f93ed54f8c100e8532149c48ba267b4d88010dda1882087de9e8324966efc227"
+    },
+    "include/racing_toolkit/RandomArrival.h": {
+      "bytes": 1057,
+      "sha256": "15b1d2a77c55662bbfe51730ce0a1d76cbcb63c1b59c03a09dbdc6edabfa71c0"
+    },
+    "include/racing_toolkit/StopRamp.h": {
+      "bytes": 1490,
+      "sha256": "80d88d3dd16ce875f25dcab45b228645b310adef26f7b1551ac3aa3bf82717d1"
+    },
+    "src/ControllerIdentity.c": {
+      "bytes": 1496,
+      "sha256": "ffcc3bdcb08d89f101bf64d0eb24385fbe6f5ffa3f247b526d55953b230c5d73"
+    },
+    "tests/sdl_stub/SDL2/SDL.h": {
+      "bytes": 548,
+      "sha256": "971f6ba9399dae54590970eb292a4f678c114199369b276bbe67316325d4c46d"
+    },
+    "tests/test_controller_order.c": {
+      "bytes": 1630,
+      "sha256": "e41354f13a2053c74e770c9a4e72fe3bb3efb677f8f223cc3c137c36cb7b0098"
+    },
+    "tests/test_policies.cpp": {
+      "bytes": 3005,
+      "sha256": "b24aaa8c78c45b00b91813bd3d7afa578b5f5f3cb9d195664892930341d1401f"
+    },
+    "tools/audit_publication.py": {
+      "bytes": 3004,
+      "sha256": "4e44bc0cf6930ccd7b124cc7dc913d3e8e4de3f422cf0845754bfaaa04992d00"
+    },
+    "tools/run_tests.py": {
+      "bytes": 1074,
+      "sha256": "d80152c258fe1d2b597f0f49dfe5ce62dddf1b204321257d80e27c2909fe82e5"
+    }
+  }
+}

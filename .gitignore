@@ -1,0 +1,16 @@
+/build*/
+__pycache__/
+*.pyc
+*.exe
+*.dll
+*.so
+*.apk
+*.a
+*.o
+*.wasm
+*.keystore
+*.jks
+*.tar
+*.zip
+.env
+.env.*
