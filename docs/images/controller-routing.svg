@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="800" viewBox="0 0 1400 800" role="img" aria-labelledby="title"><title id="title">Two independent controller routes: player one and player two</title><rect width="1400" height="800" fill="#0b1020"/><g font-family="Arial, sans-serif">
+<text x="60" y="65" font-size="18" font-weight="700" fill="#6ee7e3">ANDROID TV / RACING TOOLKIT</text>
+<text x="60" y="128" font-size="44" font-weight="700" fill="#f3f7ff">Two controllers. Two independent players.</text>
+<text x="60" y="170" font-size="22" font-weight="400" fill="#9aacc7">Small source modules. Explicit identity. No game assets.</text>
+<rect x="1160" y="43" width="180" height="45" rx="18" fill="#172439" stroke="none" stroke-width="2"/>
+<text x="1182" y="73" font-size="18" font-weight="700" fill="#c7d6ee">C / C++   Â·   MIT</text>
+<rect x="60" y="235" width="300" height="180" rx="18" fill="#131e33" stroke="#64d5ff" stroke-width="2"/>
+<text x="85" y="271" font-size="16" font-weight="700" fill="#64d5ff">PLAYER 1</text>
+<path d="M98 327 C85 296,177 296,175 327 L189 359 Q189 381,167 362 L110 362 Q88 381,86 359 Z" fill="none" stroke="#9aacc7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="113" y1="322" x2="113" y2="348" stroke="#64d5ff" stroke-width="5" stroke-dasharray="" stroke-linecap="round"/>
+<line x1="100" y1="335" x2="126" y2="335" stroke="#64d5ff" stroke-width="5" stroke-dasharray="" stroke-linecap="round"/>
+<circle cx="156" cy="326" r="5" fill="#64d5ff"/>
+<circle cx="169" cy="338" r="5" fill="#64d5ff"/>
+<text x="205" y="343" font-size="16" font-weight="400" fill="#dce7fa">instance 22</text>
+<path d="M360 326 L447 326 L470 347" fill="none" stroke="#64d5ff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="60" y="463" width="300" height="180" rx="18" fill="#131e33" stroke="#ffca75" stroke-width="2"/>
+<text x="85" y="499" font-size="16" font-weight="700" fill="#ffca75">PLAYER 2</text>
+<path d="M98 555 C85 524,177 524,175 555 L189 587 Q189 609,167 590 L110 590 Q88 609,86 587 Z" fill="none" stroke="#9aacc7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="113" y1="550" x2="113" y2="576" stroke="#ffca75" stroke-width="5" stroke-dasharray="" stroke-linecap="round"/>
+<line x1="100" y1="563" x2="126" y2="563" stroke="#ffca75" stroke-width="5" stroke-dasharray="" stroke-linecap="round"/>
+<circle cx="156" cy="554" r="5" fill="#ffca75"/>
+<circle cx="169" cy="566" r="5" fill="#ffca75"/>
+<text x="205" y="571" font-size="16" font-weight="400" fill="#dce7fa">instance 11</text>
+<path d="M360 554 L447 554 L470 575" fill="none" stroke="#ffca75" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="470" y="315" width="340" height="250" rx="18" fill="#14283a" stroke="#6ee7e3" stroke-width="2"/>
+<text x="500" y="361" font-size="20" font-weight="700" fill="#6ee7e3">CONTROLLER REGISTRY</text>
+<text x="500" y="402" font-size="19" font-weight="400" fill="#dce7fa">Caller-supplied runtime IDs</text>
+<text x="500" y="440" font-size="19" font-weight="400" fill="#dce7fa">Explicit player assignments</text>
+<text x="500" y="478" font-size="19" font-weight="400" fill="#dce7fa">Ambiguous lookup returns -1</text>
+<text x="500" y="532" font-size="16" font-weight="400" fill="#9aacc7">Names do not decide ownership</text>
+<path d="M810 382 L914 382 L944 360" fill="none" stroke="#64d5ff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M810 505 L914 505 L944 505" fill="none" stroke="#ffca75" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="944" y="255" width="396" height="345" rx="18" fill="#172439" stroke="#466080" stroke-width="2"/>
+<rect x="962" y="273" width="360" height="145" rx="7" fill="#102b3d" stroke="none" stroke-width="2"/>
+<rect x="962" y="432" width="360" height="145" rx="7" fill="#34291f" stroke="none" stroke-width="2"/>
+<text x="980" y="308" font-size="20" font-weight="700" fill="#64d5ff">P1</text>
+<text x="980" y="468" font-size="20" font-weight="700" fill="#ffca75">P2</text>
+<path d="M1050 385 Q1010 355,1080 339 L1230 339 Q1280 342,1260 389" fill="none" stroke="#38607b" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1150" cy="339" r="8" fill="#64d5ff"/>
+<path d="M1050 544 Q1010 514,1080 498 L1230 498 Q1280 501,1260 548" fill="none" stroke="#756047" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1190" cy="498" r="8" fill="#ffca75"/>
+<line x1="1117" y1="603" x2="1117" y2="627" stroke="#466080" stroke-width="8" stroke-dasharray="" stroke-linecap="round"/>
+<line x1="1065" y1="628" x2="1170" y2="628" stroke="#466080" stroke-width="8" stroke-dasharray="" stroke-linecap="round"/>
+<text x="1010" y="670" font-size="18" font-weight="400" fill="#b9c9df">Separate routes, shared screen</text>
+<rect x="60" y="700" width="860" height="43" rx="10" fill="#131e33" stroke="none" stroke-width="2"/>
+<text x="80" y="728" font-size="18" font-weight="400" fill="#9aacc7">Includes policy tests Â· No Android app or commercial game included</text>
+<text x="60" y="776" font-size="14" font-weight="400" fill="#7185a3">Original schematic illustration. Not a game screenshot.</text>
+</g></svg>
