@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="800" viewBox="0 0 1400 800" role="img" aria-labelledby="title"><title id="title">Credited-lap first-event timing and a pause-aware active-clock ramp</title><rect width="1400" height="800" fill="#0b1020"/><g font-family="Arial, sans-serif">
+<text x="60" y="65" font-size="18" font-weight="700" fill="#6ee7e3">TIMING POLICIES / ORIGINAL SCHEMATICS</text>
+<text x="60" y="126" font-size="43" font-weight="700" fill="#f3f7ff">Follow progress and active simulation time.</text>
+<text x="60" y="174" font-size="22" font-weight="400" fill="#9aacc7">Independent helpers; no engine memory access or vehicle physics.</text>
+<rect x="60" y="211" width="1280" height="235" rx="18" fill="#131e33" stroke="none" stroke-width="2"/>
+<text x="88" y="250" font-size="18" font-weight="700" fill="#6ee7e3">FIRST EVENT</text>
+<text x="365" y="250" font-size="20" font-weight="400" fill="#dce7fa">One threshold selected per race: 0.5–2.0 credited laps</text>
+<line x1="150" y1="330" x2="1250" y2="330" stroke="#466080" stroke-width="5" stroke-dasharray="" stroke-linecap="round"/>
+<rect x="425" y="302" width="825" height="56" rx="8" fill="#173846" stroke="none" stroke-width="2"/>
+<line x1="150" y1="323" x2="150" y2="365" stroke="#7185a3" stroke-width="2" stroke-dasharray="" stroke-linecap="round"/>
+<text x="138" y="398" font-size="18" font-weight="400" fill="#dce7fa">0</text>
+<line x1="425" y1="323" x2="425" y2="365" stroke="#7185a3" stroke-width="2" stroke-dasharray="" stroke-linecap="round"/>
+<text x="413" y="398" font-size="18" font-weight="400" fill="#dce7fa">0.5</text>
+<line x1="700" y1="323" x2="700" y2="365" stroke="#7185a3" stroke-width="2" stroke-dasharray="" stroke-linecap="round"/>
+<text x="688" y="398" font-size="18" font-weight="400" fill="#dce7fa">1.0</text>
+<line x1="975" y1="323" x2="975" y2="365" stroke="#7185a3" stroke-width="2" stroke-dasharray="" stroke-linecap="round"/>
+<text x="963" y="398" font-size="18" font-weight="400" fill="#dce7fa">1.5</text>
+<line x1="1250" y1="323" x2="1250" y2="365" stroke="#7185a3" stroke-width="2" stroke-dasharray="" stroke-linecap="round"/>
+<text x="1238" y="398" font-size="18" font-weight="400" fill="#dce7fa">2.0</text>
+<line x1="920" y1="284" x2="920" y2="367" stroke="#6ee7e3" stroke-width="3" stroke-dasharray="6 5" stroke-linecap="round"/>
+<circle cx="920" cy="330" r="10" fill="#6ee7e3"/>
+<text x="770" y="288" font-size="16" font-weight="400" fill="#6ee7e3">Example chosen threshold</text>
+<text x="1040" y="420" font-size="14" font-weight="400" fill="#9aacc7">credited laps</text>
+<rect x="60" y="473" width="1280" height="243" rx="18" fill="#131e33" stroke="none" stroke-width="2"/>
+<text x="88" y="512" font-size="18" font-weight="700" fill="#ffca75">SPEED-GOAL RAMP</text>
+<text x="365" y="512" font-size="20" font-weight="400" fill="#dce7fa">Pauses do not advance the three-second ramp</text>
+<line x1="150" y1="661" x2="1250" y2="661" stroke="#466080" stroke-width="3" stroke-dasharray="" stroke-linecap="round"/>
+<line x1="150" y1="545" x2="150" y2="661" stroke="#466080" stroke-width="3" stroke-dasharray="" stroke-linecap="round"/>
+<rect x="425" y="534" width="275" height="132" rx="8" fill="#34291f" stroke="none" stroke-width="2"/>
+<text x="505" y="565" font-size="18" font-weight="700" fill="#ffca75">PAUSE</text>
+<text x="472" y="608" font-size="16" font-weight="400" fill="#bfae97">goal unchanged</text>
+<path d="M150 545 L425 584 L700 584 L1250 661" fill="none" stroke="#ffca75" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="102" y="554" font-size="16" font-weight="400" fill="#9aacc7">30</text>
+<text x="112" y="666" font-size="16" font-weight="400" fill="#9aacc7">0</text>
+<text x="150" y="696" font-size="15" font-weight="400" fill="#9aacc7">time advances</text>
+<text x="1025" y="696" font-size="15" font-weight="400" fill="#9aacc7">3 s counted active time</text>
+<text x="60" y="756" font-size="17" font-weight="400" fill="#9aacc7">Calling application supplies valid race progress, clock, identities and safety conditions.</text>
+<text x="60" y="784" font-size="13" font-weight="400" fill="#7185a3">Illustration only. These helpers do not implement a game or prove AI driving behavior.</text>
+</g></svg>
